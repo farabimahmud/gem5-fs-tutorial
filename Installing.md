@@ -55,7 +55,7 @@ This will built the gem5 executable which is optimal for X86 ISA. You can build 
 This should produce a ```Hello world!``` example using the Syscall Emulation (SE) mode as we have used the ```configs/example/se.py``` file as configuration file. Results of this simulation will be saved in ```m5out``` directory
 
 
-# Full System Mode
+<!-- # Full System Mode
 
 ## Get Linux Kernel
 For this tutorial we are using 5.15.90 LTS kernel 
@@ -66,5 +66,5 @@ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.90.tar.xz
 Decompress the archive 
 ```
 tar -xJvf linux-5.15.90.tar.xz 
-```
+``` -->
 
