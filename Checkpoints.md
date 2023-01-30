@@ -6,7 +6,7 @@ However, __only MOESI__ cache protocol can be used to take the checkpoint as of 
 So, we need to build the gem5 with new options. 
 
 ```
-scons build/X86/gem5.opt PROTOCOL=MOESI_Hammer --default=X86 
+scons build/X86/gem5.opt PROTOCOL=MOESI_hammer --default=X86 
 ```
 This should build a gem5 binary that can take checkpoint. 
 We can use this binary in fs mode to take checkpoint after the system boots up using the hack_back_ckpts script or some other mechanism. 
